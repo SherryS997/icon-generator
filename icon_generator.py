@@ -3,8 +3,7 @@ import os
 import glob
 
 imagename = input('Image name here = ')
-name_of_the_app = input(
-    "What's the name of your app? => ") + '/assets/launcher/'
+name_of_the_app = input("What's the name of your app? => ") + '/assets/launcher/'
 os.makedirs(name_of_the_app)
 
 im = Image.open(imagename)
